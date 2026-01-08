@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: catalog-service
-        image: catalog-service:latest
+        image: 204169839198.dkr.ecr.eu-west-1.amazonaws.com/catalog-service:latest
         imagePullPolicy: Never
         ports:
         - containerPort: 9001
