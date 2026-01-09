@@ -5,6 +5,7 @@ metadata:
   namespace: catalog-dev
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-type: "nlb" 
+    service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
     service.beta.kubernetes.io/aws-load-balancer-subnets: "subnet-07a24c02be9df7a92"
     service.beta.kubernetes.io/aws-load-balancer-eip-allocations: "eipalloc-02bb1dfe8dbe61f54"
 spec:
